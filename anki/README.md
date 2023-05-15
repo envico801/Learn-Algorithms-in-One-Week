@@ -4,7 +4,7 @@
 
 ### 1. The Complete Guide to Big O Notation & Complexity Analysis for Algorithms
 
-#### Part 1 of 2
+#### C1
 
 Q: Why do we use Big 0?  
 A: It's a framework we can use to judge which solutions are "better" than others.
