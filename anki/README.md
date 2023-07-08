@@ -43,17 +43,19 @@ A: It means that the number of steps can be expressed as a logarithm of the size
 1.A log is the opposite of an exponent  
 2.An exponent is a repeated multiplication, a log is a repeated division  
 3.If 2^5 = 32 , then log2(32) = 5
+it stops when it reaches 1
 
 Q: What does it mean that the complexity class is Linear - O(n)?  
 A: Means that the number of steps depends on the input size.
 
-Q: What does it mean that the complexity class is Loglinear - 0(n\*log(n))?  
-A: It means that:  
+Q: What does it mean that the complexity class is Loglinear - 0(n\*log(n))?
+A: O(n log n) implies that log n operations will occur n times.  
 1.Has linear behavior nested in log steps  
-2.Is bigger than O(n) but smaller than O(n^2)
+2.Is bigger than O(n) but smaller than O(n^2)  
+e.g. O(n log n) time is common in recursive sorting algorithms, binary tree sorting algorithms and most other types of sorts.
 
-Q: What does it mean that the complexity class is Polynomial - O(n^c)?  
-A: It means that:  
+Q: What does it mean that the complexity class is Polynomial (includes quadratic, cubic, etc.) - O(n^c)?  
+A: It means that our variable n will have a constant number as exponent.
 1.n is the size of the input  
 2.c is some constant  
 3.Includes 0(n2) quadratic, 0(n3) cubic, etc.
