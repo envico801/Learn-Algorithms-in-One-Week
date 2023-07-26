@@ -34,7 +34,7 @@ When you analyze the space complexity of a recursive code, what you really have 
 
 #### Chapter 2 - Part 2
 
-P: What does it mean that the complexity class is Constant - O(1)?
+P: What does it mean that the complexity class is Constant - O(1)?  
 R: Constant time means that the number of steps/operations does not depend on the input size. Also known as O(1). Predictability is always good
 
 P: What does it mean that the complexity class is Logarithmic - 0(log(n))?  
@@ -42,20 +42,20 @@ R: It means that the number of steps can be expressed as a logarithm of the size
 **Logarithms Explained**  
 1.A log is the opposite of an exponent  
 2.An exponent is a repeated multiplication, a log is a repeated division  
-3.If 2^5 = 32 , then log2(32) = 5
+3.If 2^5 = 32 , then log2(32) = 5  
 it stops when it reaches 1
 
 P: What does it mean that the complexity class is Linear - O(n)?  
 R: Means that the number of steps depends on the input size.
 
-P: What does it mean that the complexity class is Loglinear - 0(n\*log(n))?
+P: What does it mean that the complexity class is Loglinear - 0(n\*log(n))?  
 R: O(n log n) implies that log n operations will occur n times.  
 1.Has linear behavior nested in log steps  
 2.Is bigger than O(n) but smaller than O(n^2)  
 e.g. O(n log n) time is common in recursive sorting algorithms, binary tree sorting algorithms and most other types of sorts.
 
 P: What does it mean that the complexity class is Polynomial (includes quadratic, cubic, etc.) - O(n^c)?  
-R: It means that our variable n will have a constant number as exponent.
+R: It means that our variable n will have a constant number as exponent.  
 1.n is the size of the input  
 2.c is some constant  
 3.Includes 0(n2) quadratic, 0(n3) cubic, etc.
@@ -67,13 +67,13 @@ R: It means that:
 3.Includes O(2^n), 0(3^n), etc.
 
 P: What does it mean that the complexity class is Factorial - O(n!)?  
-R: The time complexity of calculating n! is proportional to the size of the input, which is n. Each number from 1 to n needs to be multiplied together, resulting in a time complexity that grows rapidly with increasing values of n.
+R: The time complexity of calculating n! is proportional to the size of the input, which is n. Each number from 1 to n needs to be multiplied together, resulting in a time complexity that grows rapidly with increasing values of n.  
 1.n! = (n) (n-1) (n-2) (n-3)...(2) (1)  
 2.4! = 4 \* 3 \* 2 \* 1 = 24
 
 P: How should you handle functions with multiple arguments?  
-R: You should separate the arguments/variables with different letters to identify them and specify what they represent.
-For example:
+R: You should separate the arguments/variables with different letters to identify them and specify what they represent.  
+For example:  
 1.O(n) = O (m+n), Where m, n are the array lenghts  
 2.0(max(m, n) ), where m, n are the string lengths  
 3.0(n), where n is the length of the longer string
